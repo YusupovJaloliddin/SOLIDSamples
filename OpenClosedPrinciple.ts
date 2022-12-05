@@ -36,7 +36,7 @@ interface Shape {
   calculatorArea(): number;
 }
 
-class newRectangle implements Shape {
+class NewRectangle implements Shape {
   public width: number;
   public height: number;
 
@@ -49,7 +49,7 @@ class newRectangle implements Shape {
     return this.width * this.height;
   }
 }
-class newCircle implements Shape {
+class NewCircle implements Shape {
   public radius: number;
   constructor(radius: number) {
     this.radius = radius;
