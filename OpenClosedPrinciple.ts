@@ -1,7 +1,7 @@
 // Open Closed Principle (OCP)
 
 //BAD WAY
-
+//BAD WAY
 class Rectangle {
   public width: number;
   public height: number;
